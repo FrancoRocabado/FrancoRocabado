@@ -14,20 +14,7 @@ for(let i=0;i<5; i++) {
   numeros.push(Number(numero));
 }
 
-// Ordeno los números de mayor a menor
 
-numeros.sort( function( a , b){
-    if(a < b) return +1;
-    if(a > b) return -1;
-    return 0;
-})
-numeros.sort( function( a , b){
-        if(a > b) return 1;
-        if(a < b) return -1;
-        return 0;
-    });
-
-document.write("Los numeros en orden son " + numeros);
 
 
 
